@@ -1,0 +1,34 @@
+<html>
+  <head id="qwerty"></head>
+  <body>
+    <div>
+        <p>Текст</p>
+        <p>Другой</p>
+        <p>Следующий</p>
+        <p>Последний</p>
+      </div>
+      <div></div>
+      <div></div>
+  </body>
+  <script>
+    let heads = document.head;
+      console.log(heads) ; 
+      let bodys = document.body;
+      console.log(bodys) ; 
+
+      for (let i =0;i<document.body.childNodes.length;i++){
+         console.log(document.body.childNodes.length[i])
+      }
+
+      let el =document.body.firstElementChild;
+      console.log(el)
+
+
+      if(document.body.children){
+          const children = document.body.children;
+          for (var i = 1; i < children.length - 1; i++) {
+               console.log(children[i])
+      }
+    }
+</script>
+</html>
