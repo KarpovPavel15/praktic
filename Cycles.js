@@ -10,7 +10,7 @@ for(let i =0; i< str.length; i++){
     str[i]=str[i].charAt(0).toUpperCase()+str[i].slice(1);
 }
 let result =str.join('');
-console.log(result);
+console.log(result);// сделать первую букву каждого слова - а не все
 
  /* Вычислить факториал числа 9 (факториал числа - это произведение всех натуральных чисел от 1 до n включительно. например, 2! = 21 или 6! = 654321) . */
 
@@ -21,7 +21,7 @@ for (i = 0; i < num; i++){
     total = total * (num - i);
 }
 
-console.log(num  + total);
+console.log(num  + total); //ответ не сходится
 
 
   /* Создать строку "Просветление наступит через: 10, 9, 8, 7, 6, 5, 4, 3, 2, 1" */
@@ -30,7 +30,7 @@ console.log(num  + total);
   for(let i=1; i<=10; i++){
       str= str+i;
     }
-    console.log(str);
+    console.log(str); //неверный ответ
 
 /* Найти и вывести в консоль все нечетные числа от 1 до 20 включительно */
 let num =20
@@ -53,6 +53,6 @@ for(let i =0; i< s.length; i++){
 }
 let result =s.join('');
 
-console.log(result);
+console.log(result);//результат не сходится
 
 
