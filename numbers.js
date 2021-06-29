@@ -13,7 +13,7 @@
 
 console.log(Math.random().toFixed(2));
 
-let x;
+let x; 
 console.log(Math.random(0,x));
 
 /* Получить число из строки '100$'   (не получилось)*/
@@ -21,6 +21,5 @@ console.log(Math.random(0,x));
 let  str = '100$';
 let num3 = parent(str.match(/\d+/))
 console.log(num3)
-
-
+/*Посмотри split или регулярные выражение str.match(/\d+/gm) например*/
 
